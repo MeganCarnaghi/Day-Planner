@@ -30,14 +30,20 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
 ## Description of My Code
 
-You are required to submit the following for review:
+* Here is the URL of the deployed application: https://megancarnaghi.github.io/Day-Planner/
 
-* Here is the URL of the deployed application:
+* Here is the URL of the GitHub repository: https://github.com/MeganCarnaghi/Day-Planner.git
 
-* Here is the URL of the GitHub repository:
+* Here are screenshots from my planning and my actual code: (Day-Planner/Screenshots)
+
+## For the Requirements:
+
+* I used moment().format('MMMM Do, YYYY') from https://momentjs.com/ to set the current date on the Day Planner.
+
+* I used a for loop to loop through each of the various time blocks and set their class according to the current time (past, present, future)
+
+* I used the setItem and getIteam methods to set the events to local storage and display them even after the page is refreshed.
+
+* I created a "Clear All Events" item to remove all items from local storage and clear the textareas in each timeblock.
