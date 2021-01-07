@@ -35,5 +35,5 @@ THEN the saved events persist
 
 * URL of the GitHub repository: https://github.com/MeganCarnaghi/Day-Planner.git
 
-![Day Planner](Day-Planner/Screenshots)
+![Day Planner](Screenshots/Work-Day-Scheduler-ColorCodedEvents.jpg)
 
